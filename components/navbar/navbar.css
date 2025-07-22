@@ -1,0 +1,42 @@
+
+nav {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8rem;
+  flex-wrap: wrap;
+  background-color: #fff8e7; 
+  border-bottom: 2px solid #ffd6ec; 
+  box-shadow: 0 0 12px #ffc8dd;
+}
+
+@media (max-width: 770px) {
+  nav {
+    padding: 0 2rem;
+  }
+}
+
+nav > ul {
+  display: flex;
+  gap: 3rem;
+}
+
+nav button {
+  background: none;
+  border: none;
+  color: #ff66c4; 
+  transform: scale(1.5);
+  cursor: pointer;
+}
+
+nav a {
+  color: #fcf300;
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ff66c4; 
+  text-shadow: 0 0 4px #ffc8dd;
+}
