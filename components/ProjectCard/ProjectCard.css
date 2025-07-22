@@ -1,6 +1,6 @@
 .project-card {
-  background-color: #fff0fb; /* rosa pastel */
-  border: 2px solid #ffd6ec; /* borde rosa pastel más fuerte */
+  background-color: #fff0fb; 
+  border: 2px solid #ffd6ec; 
   border-radius: 1rem;
   padding: 1.5rem;
   box-shadow: 0 0 15px #ffc8dd;
@@ -13,7 +13,7 @@
 
 .project-card:hover {
   transform: scale(1.02);
-  box-shadow: 0 0 20px #fcf300; /* brillito amarillo neón al hacer hover */
+  box-shadow: 0 0 20px #fcf300; 
 }
 
 .project-card img {
@@ -52,7 +52,7 @@
 
 .project-card .tech {
   font-style: italic;
-  color: #fcf300; /* amarillo neón */
+  color: #fcf300; 
   font-weight: bold;
   margin-top: 0.5rem;
 }
